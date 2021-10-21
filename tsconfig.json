@@ -1,0 +1,52 @@
+{
+    "exclude": [
+        "node_modules",
+    ],
+    "typeAcquisition": {
+        "enable": true
+    },
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "allowJs": false,
+        "importHelpers": true,
+        "declaration": true,
+        "sourceMap": true,
+        "rootDir": "./src",
+        "outDir": "./",
+        "strict": false,
+        "noEmit": false,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": false,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": false,
+        "alwaysStrict": true,
+        "noUnusedLocals": false,
+        "downlevelIteration": true,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+            "utils/*": [
+                "utils/*"
+            ],
+            "types/*": [
+                "types/*"
+            ],
+            "constants/*": [
+                "constants/*"
+            ],
+            "client": [
+                "client"
+            ]
+        }
+    }
+}
